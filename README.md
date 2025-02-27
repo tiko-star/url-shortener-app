@@ -24,7 +24,7 @@ To install and run the application, follow these steps:
 
 3. **Run the application using Docker Compose:**
    ```sh
-   docker-compose up --build
+   docker compose up --build
    ```
 
 This will build the Docker image and start the application.
@@ -42,5 +42,3 @@ http://localhost:5173
 
 ## Conclusion
 This frontend application works seamlessly with the URL Shortener backend. Ensure the backend service is running for full functionality.
-
-For more details, refer to the documentation or the official repository.
