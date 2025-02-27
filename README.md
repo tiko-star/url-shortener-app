@@ -12,9 +12,19 @@ To install and run the application, follow these steps:
    cd url-shortener-app
    ```
 
-2. **Run the application using Docker Compose:**
+2. **Copy the environment configuration file:**
    ```sh
-   docker compose up --build
+   cp .env.example .env
+   ```
+
+   Set up the `VITE_API_HOST` variable in the `.env` file to point to the backend host. By default, it is:
+   ```sh
+   VITE_API_HOST=http://localhost:3000
+   ```
+
+3. **Run the application using Docker Compose:**
+   ```sh
+   docker-compose up --build
    ```
 
 This will build the Docker image and start the application.
@@ -32,3 +42,5 @@ http://localhost:5173
 
 ## Conclusion
 This frontend application works seamlessly with the URL Shortener backend. Ensure the backend service is running for full functionality.
+
+For more details, refer to the documentation or the official repository.
