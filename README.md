@@ -8,13 +8,13 @@ To install and run the application, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone <repo_url>
-   cd <repo_name>
+   git clone git@github.com:tiko-star/url-shortener-app.git
+   cd url-shortener-app
    ```
 
 2. **Run the application using Docker Compose:**
    ```sh
-   docker-compose up --build
+   docker compose up --build
    ```
 
 This will build the Docker image and start the application.
